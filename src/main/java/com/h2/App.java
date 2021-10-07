@@ -1,5 +1,7 @@
 package com.h2;
 
+import jdk.internal.util.xml.impl.ReaderUTF16;
+
 /**
  * Hello world!
  *
@@ -12,6 +14,10 @@ public class App
     }
 
     public static int doubleTheNumber(int number) {
+        return 2 * number;
+    }
+
+    private static int add(int [] numbers){
         return -1;
     }
 }
