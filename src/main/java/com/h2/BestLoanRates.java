@@ -11,7 +11,7 @@ public class BestLoanRates {
 
         String name = scanner.nextLine();
 
-        System.out.println("Name " + name);
+        System.out.println("Hello " + name);
 
     }
 }
