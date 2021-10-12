@@ -1,6 +1,6 @@
 package com.h2;
 
-import jdk.internal.util.xml.impl.ReaderUTF16;
+//import jdk.internal.util.xml.impl.ReaderUTF16;
 
 /**
  * Hello world!
