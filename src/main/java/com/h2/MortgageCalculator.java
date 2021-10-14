@@ -22,4 +22,8 @@ private float getMonthlyInterestRate(){
     return interestRate;
 }
 
+public void calculateMonthlyPayment(){
+    
+}
+
 }
