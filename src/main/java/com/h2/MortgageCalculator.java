@@ -23,7 +23,9 @@ private float getMonthlyInterestRate(){
 }
 
 public void calculateMonthlyPayment(){
-    
+    float r = getMonthlyInterestRate();
+    int n = getNumberOfPayments();
+    monthlyPayment = loanAmount * (((r * Math.pow(1 + r, n))) / ((Math.pow((1 + r), n)) - 1));
 }
 
 }
