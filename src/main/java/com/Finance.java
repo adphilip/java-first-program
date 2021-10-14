@@ -1,4 +1,4 @@
-package com.h2;
+package com;
 public class Finance {
     
 
