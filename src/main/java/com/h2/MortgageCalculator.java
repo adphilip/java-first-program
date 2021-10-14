@@ -13,8 +13,11 @@ public MortgageCalculator(long loanAmount, int termInYears, float annualRate){
 }
 
 private int getNumberOfPayments(){
-    return 0;
+    return termInYears * 12;
 }
 
+private float getMonthlyInterestRate(){
+    return 0.0f;
+}
 
 }
