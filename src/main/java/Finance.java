@@ -15,6 +15,16 @@ public class Finance {
     }
 
     private static boolean validateCommandArguments(String args[]){
+
+        switch (args[0]){
+            case  BEST_LOAN_RATES:
+                return args.length == 1;
+            case SAVINGS_CALCULATOR:
+                return args.length == 3;
+            case MORTGAGE_CALCULATOR:
+                return args.length == 4;
+        }
+       
         return false;
     }
 
