@@ -28,4 +28,9 @@ public void calculateMonthlyPayment(){
     monthlyPayment = loanAmount * (((r * Math.pow(1 + r, n))) / ((Math.pow((1 + r), n)) - 1));
 }
 
+@Override
+public String toString(){
+    return "hello";
+}
+
 }
